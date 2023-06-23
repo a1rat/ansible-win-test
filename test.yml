@@ -9,4 +9,4 @@
       register: scriptoutput
 
     - name: Script output
-      debug: var=case1output.stdout
+      debug: var=case1output
