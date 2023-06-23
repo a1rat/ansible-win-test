@@ -1,6 +1,7 @@
-- name: Hello World Sample
+- name: Ping
   hosts: all
   tasks:
-    - name: Hello Message
+    - name: Ping
+      win_ping:
       debug:
         msg: "Hello World!"
