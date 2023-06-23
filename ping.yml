@@ -1,3 +1,4 @@
+---
 - name: Ping
   hosts: all
   tasks:
