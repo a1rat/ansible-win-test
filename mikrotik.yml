@@ -1,7 +1,7 @@
 ---
 - name: Display resource statistics (routeros)
   hosts: all
-  - tasks:
+  tasks:
     - name: test
       routeros_command:
         commands: /system resource print
