@@ -3,7 +3,7 @@
   hosts: all
   tasks:
     - name: Remote Execute the mqsc files
-      ansible.windows.win_shell: |
+      win_shell: |
         hostname
         Get-Date
       register: scriptoutput
