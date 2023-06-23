@@ -7,5 +7,5 @@
         commands: /system resource print
       register: routeros_resources
     - debug:
-        var: "routeros_resources"
+        var: "routeros_resources.stdout_lines"
       changed_when: False
