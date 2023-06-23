@@ -9,4 +9,5 @@
       register: scriptoutput
 
     - name: Script output
-      debug: var: scriptoutput.stdout
+      debug: 
+        var: scriptoutput.stdout
