@@ -10,4 +10,4 @@
 
     - name: Script output
       debug: 
-        msg: "{{ scriptoutput.stdout }}" 
+        msg: "{{ scriptoutput }}" 
