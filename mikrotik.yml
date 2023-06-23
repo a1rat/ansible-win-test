@@ -1,6 +1,7 @@
 ---
 - name: Display resource statistics (routeros)
   hosts: all
+  gather_facts: false
   tasks:
     - name: test
       community.routeros.command:
