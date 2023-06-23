@@ -8,6 +8,6 @@
         Get-Date
       register: scriptoutput
 
-    - debug: 
-       var: "scriptoutput.stdout_lines"
-     changed_when: False
+    - debug:
+        var: "scriptoutput.stdout_lines"
+      changed_when: False
