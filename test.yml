@@ -9,5 +9,4 @@
       register: scriptoutput
 
     - name: Script output
-      debug: 
-        msg: "{{ scriptoutput }}" 
+      debug: var=case1output.stdout_lines
