@@ -7,3 +7,6 @@
         commands: /system resource print
       register: routeros_resources
       when: ansible_network_os == 'community.network.routeros'
+    - debug:
+        var: "routeros_resources"
+      changed_when: False
