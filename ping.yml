@@ -4,5 +4,3 @@
   tasks:
     - name: Ping
       win_ping:
-      debug:
-        msg: "Hello World!"
