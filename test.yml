@@ -8,5 +8,5 @@
         Get-Date
       register: scriptoutput
 
-    - name: Script output
-      debug: var=case1output
+    - debug:
+      var: case1output
